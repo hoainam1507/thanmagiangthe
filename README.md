@@ -46,3 +46,7 @@ To run this project locally, follow these steps:
 Open the index.html file in your browser: Simply double-click the index.html file, and it will open in your default web browser.
 
 The landing page will be displayed locally on your machine.
+
+
+‍🎨 Inspiration by: 
+https://zentry.com/
