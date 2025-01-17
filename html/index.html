@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforme o Jogo - Seu MMORPG real</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel='stylesheet' href="../css/fonts.css">
+</head>
+
+<body>
+    <div class="hero-section">
+        <video autoplay muted loop class="background-video">
+            <source src="../awwwards_public/public/videos/hero-1.mp4" type="video/mp4">
+        </video>
+        <header class="navbar">
+            <nav class="nav-links">
+                <a href="#">Nexus</a>
+                <a href="#">Cofre</a>
+                <a href="#">Prólogo</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1 class="main-title">
+                <span class="redefine">TRANSFORME</span> <span class="jogar">O JOGO</span>
+            </h1>
+            <h6 class="subtitle">Entre no Metagame<br>Descubra a magia enquanto joga</h6>
+            <button class="watch-trailer">Assista ao Trailer </button>
+        </div>
+    </div>
+
+
+    <section class="container" id="world">
+        <h1 class="title">
+            <span>DESCUBRA A MAIOR AVENTURA</span>
+            <br>
+            <span> COMPARTILHADA DO MUNDO</span>
+        </h1>
+
+        <div class="image-wrapper">
+            <figure class="flex-item">
+                <a href="">
+                    <img src="../img/about.webp" alt="Aventura do Mundo">
+                </a>
+            </figure>
+        </div>
+        <h5>O Jogo dos Jogos começa agora - sua vida, agora um MMORPG épico, junto em uma só plataforma</h5>
+        <h6>Fique imerso nesse mundo completamente interativo, onde cada escolha só depende de voce</h6>
+    </section>
+
+    <script>
+        document.addEventListener('scroll', function () {
+            const container = document.querySelector('.image-wrapper');
+            const scrolledClass = 'scrolled';
+
+
+            if (window.scrollY > 680) {
+                container.classList.add(scrolledClass);
+            } else {
+                container.classList.remove(scrolledClass);
+            }
+        });
+    </script>
+
+    <div class="flex">
+        <div class="card radiant">
+            <video autoplay muted loop class src="../awwwards_public/public/videos/feature-1.mp4" type="video/mp4">
+            </video>
+            <div class=" card-content">
+                <h3>Multitela</h3>
+                <p>Viva essa jornada, disponivel para multiplos jogadores, em multiplas telas. </p>
+                <button class="button-learn-more">Saiba Mais</button>
+            </div>
+        </div>
+        <div class="card zigma">
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-2.mp4"
+                type="video/mp4"></video>
+            <div class="card-content">
+                <h3>Crie Sua Jornada</h3>
+                <p>Herói ou Vilão: Quem decide que caminho tomar no jogo é você, jogador.</p>
+            </div>
+        </div>
+        <div class="card nexus">
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-3.mp4"
+                type="video/mp4"></video>
+            <div class="card-content">
+                <h3>Forme Seu Grupo</h3>
+                <p>Crie seu próprio clã pela plataforma intuitiva do Nexus!
+                </p>
+            </div>
+        </div>
+        <div class="card azuk">
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-4.mp4"
+                type="video/mp4"></video>
+            <div class="card-content">
+                <h3>Loja de Skins</h3>
+                <p>Inúmeros cosméticos para você explorar o mundo da forma que você mais gostar. </p>
+            </div>
+        </div>
+        <div class="card woman">
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-5.mp4"
+                type="video/mp4"></video>
+            <div class="card-content">
+                <h3>Em Breve</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="title">
+        <h1>
+            <span class="line1">O CONTO DE UM</span>
+            <br>
+            <span class="line2">REINO PERDIDO</span>
+        </h1>
+        <div class="img">
+            <img src="..//img/entrance.webp" alt="Reino Perdido"> 
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <a href="#" class="privacy-policy">Portfólio feito por Raphael Souza</a>
+          <a href="#" class="privacy-policy">Privacy Policy</a>
+        </div>
+      </footer>
+      
+</body>
+
+</html>
