@@ -4,52 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transforme o Jogo - Seu MMORPG real</title>
+    <title>Thần Ma Giáng Thế</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel='stylesheet' href="../css/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="hero-section">
         <video autoplay muted loop class="background-video">
-            <source src="../awwwards_public/public/videos/hero-1.mp4" type="video/mp4">
+            <source src="../awwwards_public/public/videos/backgroud1.mp4" type="video/mp4">
         </video>
-        <header class="navbar">
-            <nav class="nav-links">
-                <a href="#">Nexus</a>
-                <a href="#">Cofre</a>
-                <a href="#">Prólogo</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-            </nav>
-        </header>
+<header class="navbar">
+  <!-- Logo bên trái -->
 
-        <div class="content">
-            <h1 class="main-title">
-                <span class="redefine">TRANSFORME</span> <span class="jogar">O JOGO</span>
-            </h1>
-            <h6 class="subtitle">Entre no Metagame<br>Descubra a magia enquanto joga</h6>
-            <button class="watch-trailer">Assista ao Trailer </button>
-        </div>
+  <!-- Menu giữa -->
+  <nav class="nav-links" id="navMenu">
+    <a href="#">Trang chủ</a>
+    <a href="https://www.facebook.com/sharegameprivate2025">Tin tức</a>
+    <a href="https://www.facebook.com/quinhquinh18/">Hướng dẫn</a>
+    <a href="https://www.facebook.com/sharegameprivate2025/posts/pfbid02GGsv44HDCUpKLaAZM51zV3fpN8fVDmAc3zb3dU8xxgvvrvSayr7SPru2PgZUmQ8Wl">Sự kiện</a>
+    <a href="https://www.facebook.com/sharegameprivate2025">Fanpage</a>
+  </nav>
+
+  <!-- Social icons bên phải -->
+  <div class="watch-trailer-cha">
+        <a href="https://new.gtuiguang.com/y92.0l110/_lpZKM36min9UnnVno8x6g/2L1s.html" class="watch-trailer" target="_blank">Tải Game Ngay</a>
+
+  </div>
+
+
+  <div class="menu-toggle" id="menuToggle">&#9776;</div>
+</header>
+
+
+<script>
+  const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+  });
+</script>
+
+<div class="content">
+  <div class="info-box">
+   <div class="download-bar">
+    <!-- Cột trái: Nạp thẻ -->
+    <div class="column nap-the">
+        <a href="https://www.facebook.com/quinhquinh18/" target="_blank">
+            <img src="img/napthe.webp" alt="Nạp Thẻ">
+        </a>
+    </div>
+
+    <!-- Cột giữa 1: APK + PC -->
+    <div class="column apk-pc">
+        <a href="https://new.gtuiguang.com/y92.0l110/_lpZKM36min9UnnVno8x6g/2L1s.html" target="_blank">
+            <img src="img/apk1.webp" alt="APK" class="apk">
+        </a>
+        <a href="https://new.gtuiguang.com/y92.0l110/_lpZKM36min9UnnVno8x6g/2L1s.html" target="_blank">
+            <img src="img/pc1.webp" alt="PC" class="pc">
+        </a>
+    </div>
+
+    <!-- Cột giữa 2: AppStore + GooglePlay -->
+    <div class="column stores">
+        <a href="https://new.gtuiguang.com/y92.0l110/_lpZKM36min9UnnVno8x6g/2L1s.html" target="_blank">
+            <img src="img/ios.webp" alt="App Store">
+        </a>
+        <a href="https://new.gtuiguang.com/y92.0l110/_lpZKM36min9UnnVno8x6g/2L1s.html" target="_blank">
+            <img src="img/gg1.webp" alt="Google Play">
+        </a>
+        <div class="game-name">
+     </div>
+     <!-- Cột phải: QR -->
+
+</div>
+    <div class="column qr" style="padding-left: 30px;border-radius: 10px;">    
+            <img src="img/qr.webp" alt="QR Code">      
+    </div>
+</div>
+
+<!-- Tải game -->
+    <a href="https://new.gtuiguang.com/y92.0l110/_lpZKM36min9UnnVno8x6g/2L1s.html" class="watch-trailer" target="_blank">Tải Game Ngay</a>
+  </div>
+</div>
     </div>
 
 
     <section class="container" id="world">
         <h1 class="title">
-            <span>DESCUBRA A MAIOR AVENTURA</span>
+            <span>Trải nghiệm kiếm hiệp đỉnh cao</span>
             <br>
-            <span> COMPARTILHADA DO MUNDO</span>
+            <span> nơi vinh quang chỉ dành cho kẻ mạnh</span>
         </h1>
 
-        <div class="image-wrapper">
+        <!-- <div class="image-wrapper">
             <figure class="flex-item">
                 <a href="">
-                    <img src="../img/about.webp" alt="Aventura do Mundo">
+                    <img src="../img/bia.webp" alt="Aventura do Mundo">
                 </a>
             </figure>
-        </div>
-        <h5>O Jogo dos Jogos começa agora - sua vida, agora um MMORPG épico, junto em uma só plataforma</h5>
-        <h6>Fique imerso nesse mundo completamente interativo, onde cada escolha só depende de voce</h6>
+        </div> -->
+        <!-- <h5>Trận chiến của những huyền thoại bắt đầu – hóa thân thành anh hùng trong thế giới nhập vai PK đỉnh cao!
+</h5>
+        <h5>Bước vào giang hồ đầy biến động, nơi từng quyết định sẽ định đoạt số phận của bạn.</h5> -->
     </section>
 
     <script>
@@ -68,66 +129,88 @@
 
     <div class="flex">
         <div class="card radiant">
-            <video autoplay muted loop class src="../awwwards_public/public/videos/feature-1.mp4" type="video/mp4">
+            <video autoplay muted loop class src="../awwwards_public/public/videos/1.mp4" type="video/mp4">
             </video>
             <div class=" card-content">
-                <h3>Multitela</h3>
-                <p>Viva essa jornada, disponivel para multiplos jogadores, em multiplas telas. </p>
-                <button class="button-learn-more">Saiba Mais</button>
+                <h3>Trang bị hiếm</h3>
+                <p>Tham gia săn boss cực khủng, rơi trang bị hiếm, Nạp ngay để mạnh hơn, sở hữu ảo hóa độc quyền lên top.</p>
+               <a href="https://www.facebook.com/sharegameprivate2025/posts/pfbid02GGsv44HDCUpKLaAZM51zV3fpN8fVDmAc3zb3dU8xxgvvrvSayr7SPru2PgZUmQ8Wl"> <button class="button-learn-more">Đua top</button></a>
             </div>
         </div>
         <div class="card zigma">
-            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-2.mp4"
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/2.mp4"
                 type="video/mp4"></video>
             <div class="card-content">
-                <h3>Crie Sua Jornada</h3>
-                <p>Herói ou Vilão: Quem decide que caminho tomar no jogo é você, jogador.</p>
+                <h3>Đa dạng map</h3>
+                <p>Khám phá thế giới thần ma rộng lớn với nhiều bản đồ đa dạng, cảnh quan huyền ảo, thử thách phong phú.</p>
             </div>
         </div>
-        <div class="card nexus">
-            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-3.mp4"
+               <div class="card woman">
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/aohoaskin1.mp4"
                 type="video/mp4"></video>
             <div class="card-content">
-                <h3>Forme Seu Grupo</h3>
-                <p>Crie seu próprio clã pela plataforma intuitiva do Nexus!
-                </p>
+                <h3>Hệ thống ảo hóa</h3>
+                <p>Kho thời trang ảo hóa độc đáo, thay đổi diện mạo nhân vật, tăng chỉ số sức mạnh và thể hiện phong cách riêng. </p>
             </div>
         </div>
         <div class="card azuk">
-            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-4.mp4"
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/4.mp4"
                 type="video/mp4"></video>
             <div class="card-content">
-                <h3>Loja de Skins</h3>
-                <p>Inúmeros cosméticos para você explorar o mundo da forma que você mais gostar. </p>
-            </div>
-        </div>
-        <div class="card woman">
-            <video autoplay muted loop class src="..//awwwards_public/public/videos/feature-5.mp4"
-                type="video/mp4"></video>
-            <div class="card-content">
-                <h3>Em Breve</h3>
+                <h3>Hoạt động bang <br> liên sever</h3>
+                <p>Bang hội liên server quy tụ anh hùng, giao tranh rực lửa, tranh đoạt vinh quang và xưng bá thiên hạ.</p>
             </div>
         </div>
 
+ <div class="card nexus">
+            <video autoplay muted loop class src="..//awwwards_public/public/videos/3.mp4"
+                type="video/mp4"></video>
+            <div class="card-content">
+                <h3>Hệ thống đấu trường</h3>
+                <p>Tham gia đấu trường kịch tính, so tài cao thủ toàn server, khẳng định sức mạnh và giành phần thưởng giá trị.
+                </p>
+            </div>
+        </div>
     </div>
 
-    <div class="title">
+    <!-- <div class="title">
         <h1>
-            <span class="line1">O CONTO DE UM</span>
+            <span class="line1">Nhận GIFTCODE Combo Quà Giới Hạn</span>
             <br>
-            <span class="line2">REINO PERDIDO</span>
+        
         </h1>
         <div class="img">
-            <img src="..//img/entrance.webp" alt="Reino Perdido"> 
+            <img src="..//img/thamgia.webp" alt="Reino Perdido"> 
         </div>
-    </div>
+    </div> -->
 
     <footer class="footer">
-        <div class="footer-content">
-          <a href="#" class="privacy-policy">Portfólio feito por Raphael Souza</a>
-          <a href="#" class="privacy-policy">Privacy Policy</a>
-        </div>
-      </footer>
+  <div class="footer-content">
+
+    <!-- Cột 1: Logo -->
+    <div class="footer-col">
+      <img src="img/logo.webp" alt="Game Logo" class="footer-logo">
+    </div>
+
+    <!-- Cột 2: Nội dung -->
+    <div class="footer-col footer-text">
+      <span>Game Thần Ma Giáng Thế</span><br>
+      <span> Hỗ Trợ | Cài Đặt | Điều Khoản | Bảo Mật <br></span>
+        <span> CSKH Zalo: 0776 588 613 </span><br>
+      <span class="footer-cskh">CSKH FB: <a href="https://www.facebook.com/quinhquinh18" > https://www.facebook.com/quinhquinh18/</a></span><br>
+    
+      <span>Thời gian: <span style="color: #ff4444; font-weight: bold;">8:00 - 22:00 tất cả các ngày (GMT+7)</span><br>
+      <span>Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khỏe</span>
+    </div>
+
+    <!-- Cột 3: Ảnh 18+ -->
+    <div class="footer-col">
+      <img src="img/18t.webp" alt="18+ Warning" class="footer-18plus">
+    </div>
+
+  </div>
+</footer>
+
       
 </body>
 
