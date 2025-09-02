@@ -72,10 +72,12 @@ body {
   background-color: #ffd700;
   transition: width 0.3s ease;
 }
+.nav-links a:focus,
 .nav-links a:active,
 .nav-links a:hover {
   color: #ffd700;
 }
+.nav-links a:focus::after,
 .nav-links a:active::after,
 .nav-links a:hover::after {
   width: 100%;
@@ -116,10 +118,12 @@ body {
   transform: skewX(-25deg);
   transition: left 0.5s ease;
 }
+.watch-trailer:focus::before,
 .watch-trailer:active::before,
 .watch-trailer:hover::before {
   left: 130%;
 }
+.watch-trailer:focus, 
 .watch-trailer:active, 
 .watch-trailer:hover {
   transform: scale(1.05);
@@ -177,6 +181,7 @@ body {
   position: relative;
   z-index: 2; /* Đảm bảo link không bị đè */
 }
+.column a:focus,
 .column a:active,
 .column a:hover {
   border-color: #ffea00;
@@ -291,6 +296,7 @@ h6 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.card:focus,
 .card:active,
 .card:hover {
   transform: translateY(-10px);
@@ -323,6 +329,7 @@ h6 {
   transition: opacity 0.3s ease;
   z-index: 2;
 }
+.card:focus .card-content,
 .card:active .card-content,
 .card:hover .card-content {
   opacity: 1;
@@ -356,6 +363,7 @@ h6 {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.button-learn-more:focus,
 .button-learn-more:active,
 .button-learn-more:hover {
   background-color: #e4ff3f;
@@ -381,6 +389,7 @@ h6 {
   filter: grayscale(100%);
   border-radius: 35px;
 }
+.img:focus img
 .img:active img
 .img:hover img {
   transform: skew(-15deg, -12deg);
@@ -408,6 +417,7 @@ h6 {
   color: #ffffff;
   text-decoration: none;
 }
+.footer-cskh a:focus,
 .footer-cskh a:active,
 .footer-cskh a:hover {
   color: #ffd700;
