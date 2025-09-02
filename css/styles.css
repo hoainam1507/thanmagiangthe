@@ -72,11 +72,11 @@ body {
   background-color: #ffd700;
   transition: width 0.3s ease;
 }
-
+.nav-links a:active,
 .nav-links a:hover {
   color: #ffd700;
 }
-
+.nav-links a:active::after,
 .nav-links a:hover::after {
   width: 100%;
 }
@@ -116,11 +116,11 @@ body {
   transform: skewX(-25deg);
   transition: left 0.5s ease;
 }
-
+.watch-trailer:active::before,
 .watch-trailer:hover::before {
   left: 130%;
 }
-
+.watch-trailer:active, 
 .watch-trailer:hover {
   transform: scale(1.05);
   box-shadow: 0 0 30px rgba(255, 153, 0, 0.9);
@@ -177,7 +177,7 @@ body {
   position: relative;
   z-index: 2; /* Đảm bảo link không bị đè */
 }
-
+.column a:active,
 .column a:hover {
   border-color: #ffea00;
   box-shadow: 0 0 20px rgba(255, 255, 0, 0.8), 0 0 40px rgba(255, 255, 0, 0.5);
@@ -291,7 +291,7 @@ h6 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.card:active,
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
@@ -323,7 +323,7 @@ h6 {
   transition: opacity 0.3s ease;
   z-index: 2;
 }
-
+.card:active .card-content,
 .card:hover .card-content {
   opacity: 1;
 }
@@ -356,7 +356,7 @@ h6 {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
+.button-learn-more:active,
 .button-learn-more:hover {
   background-color: #e4ff3f;
   color: black;
@@ -381,7 +381,7 @@ h6 {
   filter: grayscale(100%);
   border-radius: 35px;
 }
-
+.img:active img
 .img:hover img {
   transform: skew(-15deg, -12deg);
   filter: grayscale(0%);
@@ -408,7 +408,7 @@ h6 {
   color: #ffffff;
   text-decoration: none;
 }
-
+.footer-cskh a:active,
 .footer-cskh a:hover {
   color: #ffd700;
   text-decoration: none;
